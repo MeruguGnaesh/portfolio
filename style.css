@@ -17,17 +17,18 @@ body{
 }
 .container{
     padding: 10px 10%;
-     postion:sticky;
-    top:0;
-    right:0;
-    left:0;
+    position:relative;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-   
+    position:absolute;
+    postion:sticky;
+    top:0;
+    right:0;
+    left:0;
     
 }
 .logo{
@@ -59,8 +60,9 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
-nav ul li a:hover::after{
+nav ul li a:hover::before{
     color:yellow;
+    width:100%;
 }
 .header-text{
     margin-top: 20%;
