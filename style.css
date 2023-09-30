@@ -18,18 +18,19 @@ body{
 .container{
     padding: 10px 10%;
     position:relative;
+     position:absolute;
+    postion:sticky;
+    top:0;
+    right:0;
+    left:0;
+    
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    position:absolute;
-    postion:sticky;
-    top:0;
-    right:0;
-    left:0;
-    
+   
 }
 .logo{
     width: 240px;
@@ -60,7 +61,7 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
-nav ul li a:hover::before{
+nav ul li a::after{
     color:yellow;
     width:100%;
 }
