@@ -25,10 +25,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-         postion:sticky;
-    top:0;
-    right:0;
-    left:0;
     
 }
 .logo{
@@ -58,18 +54,6 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
-}
-
-nav ul li a::after{
-    color:yellow;
-    content:'';
-    width:0;
-    height : 6px;
-    background :#ff004f;
-    position : absolute;
-    left:0;
-    bottom:-6px;
-    transition: 0.5s;
 }
 .header-text{
     margin-top: 20%;
