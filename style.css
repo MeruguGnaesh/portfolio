@@ -17,8 +17,7 @@ body{
 }
 .container{
     padding: 10px 10%;
-    position:relative;
-     position:absolute;
+   
     postion:sticky;
     top:0;
     right:0;
